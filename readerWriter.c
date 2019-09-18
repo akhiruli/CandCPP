@@ -58,3 +58,6 @@ void reader(void *arg){
    }
    sem_post(&readCountAccess);
 }
+
+// compile using the command "gcc readerWriter.c -lpthread"
+
